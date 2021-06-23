@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+</head>
+<body>
+<div class="min-h-screen bg-gray-300">
+    <div class="container mx-auto p-10 max-w-screen-lg">
+        <div class="bg-white rounded shadow p-8">
+            <!--  ToastBar  -->
+            <div class="w-full bg-orange-200 text-yellow-900 px-4 py-2 flex items-center">
+                <img src="../img/cart.png" class="w-10 block pr-2">
+                <div class="text-sm">Congrats you're eligible for a <b>Coupon Code</b> in this order</div>
+            </div>
+            <!-- Order Summary  -->
+            <div>
+                <h3 class="text-xl mt-4 font-bold">Order Summary</h3>
+                <!--     BOX     -->
+                <div class="border w-full rounded mt-5 flex p-4 justify-between items-center flex-wrap">
+                    <img src="../img/product_1.png" class="w-12">
+                    <div class="w-2/3">
+                        <h3 class="text-lg font-medium">Black Jacket XL</h3>
+                        <p class="text-gray-600 text-xs">Sold by <b>Aashir Khan</b></p>
+                        <h4 class="text-red-700 text-xs font-bold mt-1">Only 2 left in stock</h4>
+                    </div>
+                    <div>
+                        <h4 class="text-3xl font-medium"><sup class="text-lg text-purple-800">$</sup> 89</h4>
+                        <h5 class="text-sm font-bold text-purple-800">60% OFF</h5>
+                    </div>
+                    <div class="w-full flex justify-between mt-4">
+                        <button class="text-red-700 hover:bg-red-100 px-2">DELETE</button>
+                        <label class="block uppercase tracking-wide text-gray-700" for="grid-first-name">
+                            QTY
+                            <select class="ml-3 text-sm bg-purple-700 border border-purple-200 text-white p-2 rounded leading-tight"
+                                    id="grid-state">
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="border w-full rounded mt-5 flex p-4 justify-between items-center flex-wrap">
+                    <img src="../img/product_2.png" class="w-12">
+                    <div class="w-2/3">
+                        <h3 class="text-lg font-medium">Black Hat</h3>
+                        <p class="text-gray-600 text-xs">Sold by <b>Taha Dildar</b></p>
+                        <h4 class="text-red-700 text-xs font-bold mt-1">Only 1 left in stock</h4>
+                    </div>
+                    <div>
+                        <h4 class="text-3xl font-medium"><sup class="text-lg text-purple-800">$</sup> 20</h4>
+                        <h5 class="text-sm font-bold text-purple-800">40% OFF</h5>
+                    </div>
+                    <div class="w-full flex justify-between mt-4">
+                        <button class="text-red-700 hover:bg-red-100 px-2">DELETE</button>
+                        <label class="block uppercase tracking-wide text-gray-700" for="grid-first-name">
+                            QTY
+                            <select class="ml-3 text-sm bg-purple-700 border border-purple-200 text-white p-2 rounded leading-tight"
+                                    id="grid-state">
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button class="px-4 py-4 bg-purple-700 text-white w-full mt-3 rounded shadow font-bold hover:bg-purple-900">
+                PROCEED TO CHECKOUT SCREEN
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
